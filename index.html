@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <nav>
+    <div class="leftSection">
+      Gajanan's Portfolio
+    </div>
+    <div class="rightSection">
+      <ul>
+        <li><a href="#Home">Home</a> </li>
+        <li><a href="/">About</a> </li>
+        <li><a href="#Services">Services</a> </li>
+        <li><a href="/">Projects</a> </li>
+        <li><a href="/">Contact Me</a> </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<main>
+  <section class="firstSection" id="Home">
+    <div class="left">
+      Hi, My name is <span class="purple">Gajanan</span>
+      <div>and I am a passionate</div>
+      <span id="element"></span>
+
+    </div>
+    <div class="right">
+      <img src="Developer.png">
+    </div>
+  </section>
+  <hr class="line">
+  <section class="secondSection" id="Services">
+    <span class="text-gray">What have done so far</span>
+    <h1>Work Experience</h1>
+    <div class="horizontal-line">
+      <div class="verical-line">
+        <img src="img.png" class="image-top" >
+        <div class="verical-title">
+          HTML Developer
+        </div>
+        <div class="verical-desc">
+          As an HTML Developer, I specialize in building the structural foundation of websites and applications. HTML (Hypertext Markup Language) forms the core of web development, and my expertise lies in creating well-organized, semantic markup that ensures both functionality and accessibility.
+        </div>
+      </div>
+      <div class="verical-line">
+        <img src="img_1.png" class="image-top" >
+        <div class="verical-title">
+          Machine Learning
+        </div>
+        <div class="verical-desc">
+          I specialize in building and deploying machine learning models that can analyze data and deliver actionable insights. With experience in supervised, unsupervised, and reinforcement learning techniques, I work with tools like Python, TensorFlow, and scikit-learn to create models tailored to specific tasks.
+        </div>
+      </div>
+      <div class="verical-line">
+        <img src="img_3.png" class="image-top" >
+        <div class="verical-title">
+          Deep Learning
+        </div>
+        <div class="verical-desc">
+          I specialize in deep learning, building neural networks with TensorFlow to solve tasks like image classification, object detection, and predictive modeling. My focus is on using CNNs for image tasks and RNNs for sequential data, applying deep learning to tackle real-world challenges.
+        </div>
+      </div>
+      <div class="verical-line">
+        <img src="img_2.png" class="image-top" >
+        <div class="verical-title">
+          DSA
+        </div>
+        <div class="verical-desc">
+          I have a strong foundation in various data structures like arrays, linked lists, stacks, queues, trees, graphs, and hash maps. My expertise also extends to algorithmic techniques such as sorting, searching, dynamic programming, recursion, and greedy algorithms.
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="line">
+<!--  about-->
+  <section class="thirdSection" id="About">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="img1.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="subtitle">About Me</h1>
+          <p class="content">As a versatile developer, I possess a unique blend of skills in HTML Development, Machine Learning, Deep Learning, and Data Structures and Algorithms (DSA). My journey began with mastering HTML, where I focus on creating well-structured, semantic markup for responsive and accessible web applications.
+          </p>
+          <div class="tab-title">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+          </div>
+          <div class="tab-content active-tab" id="skills">
+            <ul>
+              <li><span>Web Developer</span><br>Learning Web development</li>
+              <li><span>Machine Learning</span><br>Machine Learning Learner</li>
+              <li><span>Deep Learning</span><br>Deep Learning Enthusiast</li>
+            </ul>
+          </div>
+          <div class="tab-content" id="Education">
+            <ul>
+              <li><span>2013 - 2019</span><br>Delhi Public School<br></li>
+              <li><span>2019-2020</span><br>New Era School</li>
+              <li><span>2020 - 2022</span><br>Urmi School</li>
+              <li><span>2023 - 2027</span><br>VIIT College Pune</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="line">
+<!------------------contact----------------->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="subtitle">Contact Me</h1>
+          <p><i class="fa-regular fa-paper-plane"></i> contact@example.com</p>
+          <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+          <div class="social-icons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <button class="cv-button"><a href="my-cv.pdf" download><i class="fa-solid fa-file"></i> Download CV</a></button>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+<footer>
+  <div class="footer-bottom">
+    &copy; 2024 Gajanan's Portfolio. All rights reserved.
+  </div>
+</footer>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+  var typed = new Typed('#element', {
+    strings: ['Web Developer.', ' Machine Learning Developer.', 'Java Developer.', ' Deep Learning Enthusiast.', ' React Learner.'],
+    typeSpeed: 50,
+    backSpeed: 30,  // Speed of backspacing
+    loop: true      // Makes the animation loop continuously
+  });
+
+  var tablinks =document.getElementsByClassName("tab-links");
+  var tabcontent =document.getElementsByClassName("tab-content");
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabconten of tabcontent){
+      tabconten.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+<script src="index.js"></script>
+</body>
+</html>
